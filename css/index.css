@@ -1,0 +1,82 @@
+header {
+    position: relative;
+    height: 3rem;
+    padding: 2%;
+    width: 100%;
+}
+
+.menu {
+    display: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu img{
+    width: 3rem;
+}
+
+.parte_aovivo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.video_aovivo{
+    display: flex;
+    align-items: center;
+}
+
+.video{
+    width: 10rem;
+    padding: 0% 10% 0% 10%;
+}
+
+.mais{
+    width: 2rem;
+    padding-bottom: 4rem;
+}
+
+.seta{
+    width: 2rem;
+}
+
+h2{
+    font-style: italic;
+    font-size: 2rem;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: baseline;
+}
+
+
+.rodape{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    padding: .2rem;
+    border: 1rem solid rgb(60, 171, 230);
+    background-color: rgb(60, 171, 230);
+
+}
+.icone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+footer img{
+    padding: .5rem;
+    width: 3rem;
+}
