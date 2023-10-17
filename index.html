@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Pricipal</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 
 </head>
 <body>
     <header>
-        <a href="sanduiche.html"><img src="img/menu.png" alt="menu"></a>
+        <a href="sanduiche.html" class="menu"><img src="img/menu.png" alt="menu"></a>
     </header>
-    <h1>
-        AO VIVO
-    </h1>
+
     <main>
-        <img src="img/seta_esquerda.png" alt="seta esquerda">
-        <img src="img/img_video.webp" alt="video ao vivo">
-        <img src="img/seta_direita.png" alt="seta direita">
-        <img src="img/more.png" alt="mais">
+        <section class="parte_aovivo">
+            <h1>
+                AO VIVO
+            </h1>
+
+            <section class="video_aovivo">
+                <img src="img/seta_esquerda.png" alt="seta esquerda" class="seta">
+                <img src="img/youtube.png" alt="video ao vivo" class="video">
+                <img src="img/seta_direita.png" alt="seta direita" class="seta">
+            </section>
+
+            <img src="img/more.png" alt="mais" class="mais">
+            
+        </section>
 
         <h2>
             HOJE
@@ -32,29 +40,29 @@
 
         <ul>
             <li>
-                <a href="aulas_curso.html">BIOLOGIA - Funcionamento dos ribossomos<img src="img/seta_direita.png" alt="seta para direita"></a>
+                <a href="aulas_curso.html">BIOLOGIA - Funcionamento dos ribossomos<img class="seta" src="img/seta_direita.png" alt="seta para direita"></a>
             </li>
         </ul>
 
     </main>
 
     <footer>
-        <ul>
-            <li>
+        <ul class="rodape">
+            <li class="icone">
                 <img src="img/calendario.png" alt="Eventos">
                 <h5>CALENDÁRIO</h5>
             </li>
-            <li>
+            <li class="icone">
                 <img src="img/coracao.png" alt="Interesses">
                 <h5>INTERESSES</h5>
             </li>
-            <li>
+            <li class="icone">
                 <a href='index.html'>
                 <img src="img/home.png" alt="Home">
                 </a>
                 <h5>HOME</h5>
             </li>
-            <li>
+            <li class="icone">
                 <a href='downloads.html'>
                 <img src="img/download.png" alt="Baixados">
                 </a>
