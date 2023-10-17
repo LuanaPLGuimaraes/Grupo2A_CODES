@@ -1,0 +1,44 @@
+/* header {
+    position: relative;
+    height: 3rem;
+    padding: 2%;
+    width: 100%;
+}
+
+.voltar {
+    display: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+
+.voltar img{
+    width: 3rem;
+} */
+
+
+header{
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .1rem solid rgb(60, 171, 230);
+}
+
+h1{
+    font-size: 2rem;
+    position: absolute;
+}
+
+.voltar {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 0;
+    left: 0;
+}
+
+.voltar img{
+    width: 3rem;
+} 
