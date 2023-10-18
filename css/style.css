@@ -1,8 +1,109 @@
 /* características gerais de todas as telas */
+.rodape{
+    background-color: #2FA6FF;
+    width: 100%;
+    position: fixed;
+    margin-top: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+.icone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    font-size: .8rem;
+}
+
+footer img{
+    margin: 10%;
+    width: 3rem;
+}
 
 
 /* INDEX */
+h1, h2{
+    font-size: 2rem;
+    font-style: italic;
+}
 
+h2{
+    padding: .2rem;
+    border-bottom: .1rem solid  #2FA6FF;
+}
+
+h3{
+    font-style: italic;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.index_header {
+    position: fixed;
+    height: 3rem;
+    padding: 2%;
+    width: 100%;
+}
+
+.menu {
+    display: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu img{
+    width: 3rem;
+}
+
+.parte_aovivo{
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video_aovivo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    display: flex;
+    width: 60%;
+    height: 50%;
+    padding: 0% 5% 0% 5%;
+}
+
+.mais{
+    width: 2rem;
+    padding-bottom: 4rem;
+}
+
+.seta{
+    width: 2rem;
+    padding: .5rem;
+}
+
+
+.nome_aula{
+    font-size: 1rem;
+    font-style: italic;
+    margin-left: 1%;
+    color: rgb(60, 171, 230);
+}
+
+.aula_clicavel{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    padding: 0rem .5rem 2rem .5rem;
+}
 
 /* AULA4_CURSO */
 
@@ -23,3 +124,64 @@
 
 
 /* SANDUICHE */
+
+
+img {
+    width: 3rem;
+}
+
+.perfil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.perfil img{
+    margin-top: .5rem;
+}
+
+.nav {
+    margin-top: 4rem;
+    height: 20rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.links {
+    width: 50rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .8rem;
+
+}
+
+.footer {
+    margin-left: .5rem;
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.usuario {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.log_out {
+    font-size: large;
+}
+
+.links img {
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
