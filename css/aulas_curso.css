@@ -1,21 +1,3 @@
-/* header {
-    position: relative;
-    height: 3rem;
-    padding: 2%;
-    width: 100%;
-}
-
-.voltar {
-    display: absolute;
-    width: 2rem;
-    height: 2rem;
-}
-
-.voltar img{
-    width: 3rem;
-} */
-
-
 header{
     position: relative;
     flex-direction: row;
@@ -23,22 +5,65 @@ header{
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid rgb(60, 171, 230);
+    border-bottom: .2rem solid rgb(60, 171, 230);
+    padding: .3rem;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 2.2rem;
     position: absolute;
 }
+
+main{
+    padding: 1rem;
+}
+
+.aulas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: .2rem solid rgb(60, 171, 230);
+    border-radius: 20px;;
+}
+
 
 .voltar {
     position: absolute;
     width: 2rem;
     height: 2rem;
     top: 0;
-    left: 0;
+    left: 1%;
 }
 
 .voltar img{
     width: 3rem;
 } 
+
+footer{
+    background-color: rgb(60, 171, 230);
+}
+
+.rodape{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    font-size: .8rem;
+}
+
+footer img{
+    margin: 5%;
+    width: 3rem;
+}
