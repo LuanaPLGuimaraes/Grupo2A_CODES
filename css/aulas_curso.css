@@ -26,8 +26,18 @@ main{
     margin: 1rem;
     padding: 1rem;
     font-size: 1.5rem;
-    border: .2rem solid rgb(60, 171, 230);
+    border: .2rem solid;
     border-radius: 20px;;
+}
+
+.nao_assistidas{
+    color: rgb(123, 123, 123);
+    background-color: rgba(183, 180, 180, 0.283);
+    border-color: rgb(123, 123, 123);
+}
+.assistidas{
+    background-color: rgba(60, 171, 230, 0.299);
+    border-color: rgba(60, 171, 230, 0.583);
 }
 
 
