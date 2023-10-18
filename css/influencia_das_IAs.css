@@ -7,7 +7,7 @@ img {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 2.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
@@ -26,18 +26,21 @@ h5 {
 
 .main {
     margin-top: 10%;
+    margin-left: .5rem;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer {
-    margin-top: 79%;
+    width: 100%;
+    margin-top: 75%;
     padding: 1.3rem;
-    background-color: rgb(69, 69, 234);
-    position: relative;
+    background-color: rgb(60, 171, 230);
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
