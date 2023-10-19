@@ -19,6 +19,10 @@ header {
     font-weight: bold;
     margin-bottom: 1rem;
 } 
+.imagem_palestra{
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
 h1{
     color: rgb(60, 171, 230) ;
 }
@@ -35,9 +39,10 @@ main ul{
 main{
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: start;
     align-items:center;
     max-height: 900px; 
+
 
 }
 main ul li{
@@ -45,6 +50,9 @@ main ul li{
         flex-direction: column;
         justify-content: stretch;
         align-items: center;
+}
+main ul:last-child{
+    margin-bottom: 6rem;
 }
 footer{
     background-color: rgb(60, 171, 230);
