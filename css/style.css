@@ -1,16 +1,16 @@
 /* características gerais de todas as telas */
-.rodape{
+.rodape {
     background-color: #2FA6FF;
     width: 100%;
+    bottom: 0;
     position: fixed;
-    margin-top: 14%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: flex-end;
 }
 
-.icone{
+.icone {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,33 +19,32 @@
     font-size: .8rem;
 }
 
-footer img{
+footer img {
     margin: 10%;
     width: 3rem;
 }
 
-
 /* INDEX */
-h1, h2{
+h1,
+h2 {
     font-size: 2rem;
     font-style: italic;
 }
 
-h2{
+h2 {
     padding: .2rem;
-    border-bottom: .1rem solid  #2FA6FF;
+    border-bottom: .1rem solid #2FA6FF;
 }
 
-h3{
+h3 {
     font-style: italic;
     font-size: 1rem;
     padding: 1rem;
 }
 
 .index_header {
-    position: fixed;
     height: 3rem;
-    padding: 2%;
+    padding: .2rem 0 0 .2rem;
     width: 100%;
 }
 
@@ -55,50 +54,50 @@ h3{
     height: 2rem;
 }
 
-.menu img{
+.menu img {
     width: 3rem;
 }
 
-.parte_aovivo{
+.parte_aovivo {
     padding-top: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.video_aovivo{
+.video_aovivo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.video{
+.video {
     display: flex;
     width: 60%;
     height: 50%;
     padding: 0% 5% 0% 5%;
 }
 
-.mais{
+.mais {
     width: 2rem;
     padding-bottom: 4rem;
 }
 
-.seta{
+.seta {
     width: 2rem;
     padding: .5rem;
 }
 
 
-.nome_aula{
+.nome_aula {
     font-size: 1rem;
     font-style: italic;
     margin-left: 1%;
-    color: rgb(60, 171, 230);
+    color: #2FA6FF;
 }
 
-.aula_clicavel{
+.aula_clicavel {
     display: flex;
     align-items: center;
     margin-left: 1%;
@@ -109,12 +108,72 @@ h3{
 
 
 /* AULAS_CURSO */
+.header_curso {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .2rem solid #2FA6FF;
+    padding: .3rem;
+}
+
+.header_curso h1 {
+    font-size: 2.2rem;
+    position: absolute;
+}
+
+.aulas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: .2rem solid;
+    border-radius: 20px;
+    ;
+}
+
+.nao_assistidas {
+    color: #7E92A3;
+    border-color: #7E92A3;
+}
+
+.assistidas {
+    background-color: #ADDCFF;
+    border-color: #8ACCFF;
+}
 
 
-/* DOWLOAD_ANALISE_DADOS */
+.voltar {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 0;
+    left: 1%;
+}
 
+.voltar img {
+    width: 3rem;
+}
 
-/* DOWLOADS */
+/* DOWNLOAD_ANALISE_DADOS */
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+/* DOWNLOADS */
 
 
 /* PALESTRA_INFLUENCIAIAS */
@@ -124,8 +183,6 @@ h3{
 
 
 /* SANDUICHE */
-
-
 img {
     width: 3rem;
 }
@@ -134,16 +191,16 @@ img {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.perfil img{
-    margin-top: .5rem;
+.perfil img {
+    padding-bottom: .5rem;
 }
 
 .nav {
-    margin-top: 4rem;
+    margin-top: 2rem;
     height: 20rem;
     position: relative;
     display: flex;
@@ -153,7 +210,7 @@ img {
 }
 
 .links {
-    width: 50rem;
+    width: 100%;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -165,7 +222,7 @@ img {
 
 .footer {
     margin-left: .5rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     position: relative;
     display: flex;
     flex-direction: row;
