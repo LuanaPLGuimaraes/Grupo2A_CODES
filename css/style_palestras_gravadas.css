@@ -1,4 +1,4 @@
-header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -12,7 +12,7 @@ header {
 } 
 
 
-main{
+.main{
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -40,14 +40,14 @@ main{
 }
 
 
-h1 {
+.h1 {
     font-weight: bold;
     font-size: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(60, 171, 230);
 }
 
-h2 {
+.h2 {
     display: flex;
     font-size: 2.5rem;
     margin-top: 2%;
