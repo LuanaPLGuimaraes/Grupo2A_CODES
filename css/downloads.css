@@ -27,7 +27,7 @@ h1{
     color: rgb(60, 171, 230) ;
 }
 
-main ul{
+main .scroll{
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -45,7 +45,7 @@ main{
 
 
 }
-main ul li{
+main .scroll li{
         display: flex;
         flex-direction: column;
         justify-content: stretch;
