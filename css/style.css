@@ -366,7 +366,7 @@ footer ul{
 }
 
 
-
+/* palestras gravadas */
 
 .h1 {
     font-weight: bold;
@@ -408,5 +408,50 @@ footer ul{
     border: .5rem solid rgb(60, 171, 230);
     margin: 5% 8% 20% 8%;
 }
+
+
+
+/* Analise de dados */
+.seta1 {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.img1{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.h12 {
+    margin-top: 2%;
+    margin-bottom: 30%;
+}
+
+.h52 {
+    font-size: smaller;
+}
+
+
+
+
 
 

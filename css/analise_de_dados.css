@@ -1,4 +1,4 @@
-.seta {
+/* .seta {
     width: 2rem;
     height: 2rem;
     display: flex;
@@ -10,7 +10,7 @@
 }
 
 
-main {
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@ main {
     align-items: center;
 }
 
-label {
+.label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -46,16 +46,16 @@ label {
     height: 3.5rem;
 }
 
-h1 {
+.h12 {
     margin-top: 2%;
     margin-bottom: 30%;
 }
 
-h5 {
+.h52 {
     font-size: smaller;
 }
 
 
 
 
-
+ */
