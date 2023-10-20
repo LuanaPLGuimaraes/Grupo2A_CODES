@@ -37,23 +37,23 @@ footer ul{
     width: 3rem;
 } 
 
-h2 {
+h1 {
     font-family: 'Noto Serif', serif;
+}
+
+h2 {
     font-family: 'Roboto', sans-serif;
 }
 
 h3 {
-    font-family: 'Noto Serif', serif;
     font-family: 'Roboto', sans-serif;
 }
 
 h5 {
-    font-family: 'Noto Serif', serif;
     font-family: 'Roboto', sans-serif;
 }
 
 label {
-    font-family: 'Noto Serif', serif;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -207,7 +207,9 @@ label {
     align-items: center;
     height: 3rem;
     border-bottom: .2rem solid #006ACB;
+    margin: 0% 2% 0% 2%;
     padding: .3rem;
+    color: #2FA6FF;
 }
 
 .header_curso h1 {
