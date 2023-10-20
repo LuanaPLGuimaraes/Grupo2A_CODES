@@ -1,18 +1,18 @@
 /* CONTEÚDOS GERAIS */
 
 footer{
-    background-color: rgb(60, 171, 230);
+    background-color: #2FA6FF;
     display: flex;
 }
 footer ul{
-    background-color: rgb(60, 171, 230);
+    background-color: #2FA6FF;
     position: fixed;
     bottom: 0;
     
 }
 
 .rodape{
-    background-color: rgb(60, 171, 230);
+    background-color: #2FA6FF;
     width: 100%;
     position: fixed;
     margin-top: 8%;
@@ -74,7 +74,7 @@ label {
     font-style: italic;
     font-size: 2rem;
     padding: .2rem;
-    border-bottom: .1rem solid rgb(60, 171, 230);
+    border-bottom: .1rem solid #006ACB;
 }
 
 .h3_index {
@@ -148,6 +148,52 @@ label {
 /* AULA4_CURSO */
 
 
+.header_aula4_curso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-bottom: 0.3rem solid #006ACB; 
+    padding-bottom: 3%;
+    margin: 0% 2% 0% 2%; 
+} 
+
+
+.h1_aula4_curso {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #2FA6FF;
+}
+
+
+.seta_aula4{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+.main_aula4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 25%;
+}
+
+
+.li_1 {
+    font-size: 1.5rem;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.li_2 {
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+
+
 
 
 
@@ -160,7 +206,7 @@ label {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .2rem solid #2FA6FF;
+    border-bottom: .2rem solid #006ACB;
     padding: .3rem;
 }
 
@@ -189,7 +235,7 @@ label {
 
 .assistidas {
     background-color: #ADDCFF;
-    border-color: #8ACCFF;
+    border-color: #2FA6FF;
 }
 
 
@@ -298,7 +344,7 @@ img {
     position: fixed;
     width: 100%;
     padding: .3rem;
-    background-color: rgb(60, 171, 230);
+    background-color: #2FA6FF;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -316,7 +362,7 @@ img {
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    border-bottom: 0.3rem solid rgb(60, 171, 230); 
+    border-bottom: 0.3rem solid #006ACB; 
     padding-bottom: 3%;
     margin: 0% 2% 0% 2%; 
 } 
@@ -334,7 +380,7 @@ img {
 .h1_palestras_gravadas {
     font-weight: bold;
     font-size: 1.5rem;
-    color: rgb(60, 171, 230);
+    color: #2FA6FF;
 }
 
 .h2_palestras_gravadas {
@@ -350,7 +396,7 @@ img {
     justify-content: center;
     width: 5rem;
     height: 5rem;
-    border-right: .2rem solid rgb(60, 171, 230);
+    border-right: .2rem solid #2FA6FF;
     padding: 5%;
 }
 
@@ -363,7 +409,7 @@ img {
 .linha {
     display: flex;
     flex-direction: row-reverse;
-    border: .2rem solid rgb(60, 171, 230);
+    border: .2rem solid #2FA6FF;
     margin: 5% 1.5rem 20% 1.5rem;
 }
 
