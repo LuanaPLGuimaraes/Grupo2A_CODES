@@ -288,7 +288,36 @@ footer ul{
 
 /* PALESTRA_INFLUENCIAIAS */
 
+.influenciaIAS_header {
+    margin-left: .5rem;
+    margin-top: .5rem;
+    display: relative;
+}
 
+.influenciaIAS_main {
+    margin-top: 10%;
+    margin-left: .5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 3rem;
+}
+
+.influenciaIAS_main img {
+    width: 20rem;
+}
+
+
+.influenciaIAS_main h2 {
+    margin: .5rem;
+    font-weight: bold;
+}
 
 /* SANDUICHE  */
 
