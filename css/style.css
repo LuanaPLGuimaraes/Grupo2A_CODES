@@ -310,7 +310,6 @@ footer ul{
 
 .nav_sanduiche {
     margin-top: 2rem;
-
     position: relative;
     display: flex;
     flex-direction: column;
@@ -345,7 +344,16 @@ footer ul{
     width: 3rem;
 }
 
-
+.footer_sanduiche {
+    position: fixed;
+    width: 100%;
+    padding: .3rem;
+    background-color: rgb(60, 171, 230);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 0;
+}
 
 
 
