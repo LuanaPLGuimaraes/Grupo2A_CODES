@@ -1,4 +1,8 @@
 /* CONTEÚDOS GERAIS */
+a{
+    color:  #000000
+}
+
 footer{
     background-color: #2FA6FF;
     display: flex;
@@ -87,9 +91,10 @@ label {
 }
 
 .menu {
-    display: absolute;
-    width: 2rem;
-    height: 2rem;
+    display: flex;
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .menu img {
@@ -232,7 +237,7 @@ label {
 .influenciaIAS_header {
     margin-left: .5rem;
     margin-top: .5rem;
-    display: relative;
+
 }
 
 .influenciaIAS_main {
