@@ -29,4 +29,29 @@ document.addEventListener('DOMContentLoaded', function() {
     function obterResposta(mensagemUsuario) {
         return 'Oii, tem alg dúvida?';
     }
+
+    lista_setas = document.querySelectorAll(".seta_index")
+    video = document.querySelector(".video")
+
+
+    if (lista_setas != null){
+        lista_setas[1].addEventListener("click", function(event) {
+            contador += 1;
+            video.src = lista_videos[contador];
+            if (contador > 2){
+                video.src = lista_videos[2];
+                contador = 2
+            }
+        });
+    
+        lista_setas[0].addEventListener("click", function(event) {
+            contador -= 1;
+            video.src = lista_videos[contador];
+            if (contador < 0){
+                video.src = lista_videos[0];
+                contador = 0
+            }
+        });
+    }
+
 });
