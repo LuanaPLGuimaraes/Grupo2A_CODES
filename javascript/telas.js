@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var form = document.querySelector('form');
     var caixa_de_texto = document.querySelector("input[type='text']");
     var lista = document.querySelector(".chat");
-
+    let lista_videos = ["https://www.youtube.com/embed/d_xUY4s5KCA?si=xVlE3Ns86FsTQgXh", "https://www.youtube.com/embed/cTQnHjWSNzM?si=3U99qdssoL0mQNZJ", "https://www.youtube.com/embed/Roy2bxjclUA?si=TCECip62Btb4aOxB"]
+    let contador = 0;
+    if (form != null){
     form.addEventListener('submit', function(event) {
         event.preventDefault();
 
@@ -25,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         caixa_de_texto.value = '';
     });
+}
 
     function obterResposta(mensagemUsuario) {
         return 'Oii, tem alg dúvida?';
