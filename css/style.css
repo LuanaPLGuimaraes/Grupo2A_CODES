@@ -418,10 +418,51 @@ form {
     background-color: #f1f1f1;
     padding: 15px;
     box-sizing: border-box;
-  }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+form input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
 
+form input[type="submit"] {
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.chat {
+    list-style-type: none;
+    padding: 0;
+}
 
+.message_container {
+    display: flex;
+    flex-direction: column; 
+    max-width: 50%;
+    border-radius: 15px;
+    margin: 15px 0;
+}
 
+.user_message, .bot_message {
+    padding: 20px;
+    word-wrap: break-word; 
+}
 
+.user_message {
+    text-align: right;
+    background-color: #f1f1f1;
+}
+
+.bot_message {
+    text-align: left;
+    background-color: #2FA6FF;
+    color: white;
+}
