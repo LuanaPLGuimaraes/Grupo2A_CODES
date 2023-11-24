@@ -355,10 +355,9 @@ img {
     display: flex;
     position: relative;
     justify-content: center;
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     border-right: .2rem solid #2FA6FF;
-    padding: 5%;
 }
 
 .linha {
