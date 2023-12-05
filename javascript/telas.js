@@ -4,6 +4,15 @@ document.addEventListener('DOMContentLoaded', function() {
     var lista = document.querySelector(".chat");
     let lista_videos = ["https://www.youtube.com/embed/d_xUY4s5KCA?si=xVlE3Ns86FsTQgXh", "https://www.youtube.com/embed/cTQnHjWSNzM?si=3U99qdssoL0mQNZJ", "https://www.youtube.com/embed/Roy2bxjclUA?si=TCECip62Btb4aOxB"]
     let contador = 0;
+
+    julia_oliv = document.querySelector('.foto_perfil')
+    if (julia_oliv != null){
+    julia_oliv.src = "img/julia_oliveira.png"
+    julia_oliv.style.borderRadius = '100%'
+    julia_oliv.style.width = '25%'
+    }
+
+    
     if (form != null){
         form.addEventListener('submit', function(event) {
             event.preventDefault();
@@ -46,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     video = document.querySelector(".video")
 
 
-    if (lista_setas != null){
+    if (lista_setas[1] != null){
         lista_setas[1].addEventListener("click", function(event) {
             contador += 1;
             video.src = lista_videos[contador];
@@ -55,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 contador = 2
             }
         });
+        
     
         lista_setas[0].addEventListener("click", function(event) {
             contador -= 1;
@@ -65,10 +75,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-
-    julia_oliv = document.querySelector('.foto_perfil')
-    julia_oliv.src = "img/julia_oliveira.png"
-    julia_oliv.style.borderRadius = '100%'
-    julia_oliv.style.width = '25%'
 
 });
