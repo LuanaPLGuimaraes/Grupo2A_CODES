@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var messageContainerUsuario = document.createElement("div");
             messageContainerUsuario.className = "message_container user_message";
             messageContainerUsuario.innerHTML = caixa_de_texto.value;
+            messageContainerUsuario.style.margin = '1rem' 
     
             novo_item_usuario.appendChild(messageContainerUsuario);
             lista.appendChild(novo_item_usuario);
