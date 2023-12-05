@@ -483,3 +483,12 @@ form input[type="submit"] {
     font-size: medium;
     margin: 1rem;
 }
+
+/* Meus interesses */
+.interesses li{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin: 5%;
+    font-size: 1.5rem;
+}
