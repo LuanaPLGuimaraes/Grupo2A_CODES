@@ -57,4 +57,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    julia_oliv = document.querySelector('.foto_perfil')
+    julia_oliv.src = "img/julia_oliveira.png"
+    julia_oliv.style.borderRadius = '100%'
+    julia_oliv.style.width = '25%'
+
 });
